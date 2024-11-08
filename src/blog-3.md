@@ -1,3 +1,5 @@
+![TYPE GUARD (1)](https://github.com/user-attachments/assets/106657e8-539b-48e2-937a-9542cf55abfe)
+
 # TypeScript Type Guards: Keeping Your Code Safe
 
 Imagine you're going to a big, fancy party. At this party, there are bodyguards who check if guests should be allowed inside and where they can go. TypeScript type guards work a lot like these bodyguards, but instead of checking people, they check the types of data in our code.
@@ -20,7 +22,7 @@ The `typeof` type guard is simple and used to check basic types like `string`, `
 
 #### Use Case
 
-Use Case: Use `typeof` when you need to check for simple primitive types in functions that accept multiple types, like `string`, `number`, and `boolean`, to handle each type appropriately.
+Use Case: Use `typeof` when we need to check for simple primitive types in functions that accept multiple types, like `string`, `number`, and `boolean`, to handle each type appropriately.
 
 ```typescript
 const checkInvitation = (invitation: string | number) => {
@@ -124,7 +126,3 @@ function seatGuest(guest: ChiefGuest | GeneralGuest) {
 Just like bodyguards at a party ensure everything runs smoothly by checking each guest, TypeScript type guards keep our code safe by ensuring variables are the expected type before they’re used. This not only prevents possible errors but also makes the code easier to understand and maintain.
 
 Think of each type guard as a personal bodyguard for your code, keeping bugs at bay and helping your application run smoothly, like a well-planned party!
-
-```
-
-```
