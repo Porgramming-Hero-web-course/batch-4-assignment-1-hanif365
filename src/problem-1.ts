@@ -2,7 +2,7 @@
   type SumArray = (numbers: number[]) => number;
 
   const sumArray: SumArray = (numbers) => {
-    const sum = numbers.reduce((acc, curr) => {
+    const sum: number = numbers.reduce((acc, curr) => {
       return acc + curr;
     }, 0); // here,accumulator(acc)'s initial value is 0
 
