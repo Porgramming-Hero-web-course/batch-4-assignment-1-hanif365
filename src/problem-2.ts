@@ -1,5 +1,7 @@
 {
-  function removeDuplicates(numbers: number[]): number[] {
+  type RemoveDuplicates = (numbers: number[]) => number[];
+
+  const removeDuplicates: RemoveDuplicates = (numbers) => {
     const uniqueArr: number[] = [];
 
     for (const number of numbers) {
@@ -10,8 +12,8 @@
     }
 
     return uniqueArr;
-  }
+  };
 
   const result = removeDuplicates([1, 2, 2, 3, 4, 4, 5]);
-  //   console.log(result);
+  // console.log(result);
 }
